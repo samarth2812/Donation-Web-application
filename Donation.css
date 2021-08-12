@@ -1,0 +1,45 @@
+#page{
+    height: 650px;
+     padding: 5px 200px;
+     
+     
+ }
+ #page::before{
+    content: "";
+    background: url("../child.jpg")no-repeat center/cover;
+    position: absolute;
+    top: 0px;
+     left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.65;
+    height: 892px;
+ }
+  .parent{
+      display: flex;
+      flex-direction: column;
+     background: transparent;
+     margin-top: 24%;
+     position: relative;
+     width: 800px;
+     height: 727px;
+     border: 6px solid black;
+ }
+ 
+ .child1 #head1{
+   
+    font-size:25px;
+    font-weight:bold;
+ }
+  .child1 #head2{
+    font-weight: bold;
+     font-size:20px;
+ } 
+ .child1 #head3{
+    font-size: 25px;
+     font-weight: bold;
+ } 
+
+ 
+

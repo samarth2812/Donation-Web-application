@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#home h1{
+font-size: 7.5rem;}
+
+
+
+nav .name h1{
+    color: blue;
+}
+#home{
+   height: 650px;
+    padding: 5px 200px;
+    
+    
+}
+#home::before{
+    content: "";
+    background: url("../img.jpg")no-repeat center/cover;
+    position: absolute;
+    top: 0px;
+     left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.87;
+    height: 892px;
+}
+#home h1{
+    color: rgb(127, 177, 218);
+   
+}
+#home h3{
+    color: white;
+}
+#home p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media (min-width:1301px)
+{
+    #home h3{
+        margin-top: 10px;
+    }
+}
+

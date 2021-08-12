@@ -1,0 +1,36 @@
+.parent{
+    
+    margin-top: 150px;
+    width: 1300px;
+}
+#page{
+    padding: 5px 20px;
+    margin-top: 150px;
+}
+section h1{
+    font-size: 20px;
+}
+.child1 #head1{
+    padding: 0.5rem 0.5rem;
+    font-size: 20px;
+    font-weight:bold;
+}
+.child1 #head2{
+    
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+.child1 #head3{
+    font-size: 15px;
+    font-weight:bold;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+#page h1{
+    margin-bottom: 1rem;
+}
+#page::before{
+    height: 919px;
+}
+

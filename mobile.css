@@ -1,0 +1,13 @@
+#home{
+    margin-top: 90px;
+    padding: 2px 20px;
+}
+#home h3{
+    margin-top: 50px;
+}
+#home h1{
+    font-size: 3.5rem;
+}
+#home a{
+    font-size: 1.15rem;
+}
